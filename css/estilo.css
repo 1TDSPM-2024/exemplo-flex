@@ -42,6 +42,67 @@ transition: background-color .4s ease-in-out;
 }
 
 
+#titulo{
+  text-align: center;
+  margin:3%;
+}
+
+.pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pets figure img{
+  display: block;
+  max-width: 100%;
+}
+
+.pets figure{
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+  flex:1 1 200px; 
+  margin: 10px;
+}
+
+/* .container{
+display: flex;
+background-color: #a15cc9;
+height: 100px;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.box{
+color: #fff;
+text-align: center;
+width: 50px;
+height: 50px;
+}
+
+.box1{
+background-color: #ff0000;
+}
+
+
+.box2{
+background-color: #00ff00;
+}
+
+
+.box3{
+background-color: #0000ff;
+}
+
+.box4{
+background-color: #670404;
+} */
+
+
 
 
 
