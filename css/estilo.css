@@ -41,11 +41,30 @@ transition: background-color .4s ease-in-out;
 }
 }
 
+#titulo {
+  text-align: center;
+  margin: 3%;
+}
 
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+.pets figure{
+  /* flex-grow: 1;      taxa de crescimento
+  flex-shrink: 1;       taxa de encolhimento
+  flex-basis: 200px;    base do elemento */
+  flex: 1 1 200px;
+  margin: 10px;
+}
 
-
-
+.pets figure img {
+  display: block;
+  max-width: 100%;
+}
 
 
 
