@@ -41,8 +41,28 @@ transition: background-color .4s ease-in-out;
 }
 }
 
+#titulo{
+  text-align: center;
+  margin: 3%;
+}
 
+.pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
 
+.pets figure img{
+  display: block;
+  max-width: 100%;
+}
+
+.pets figure{
+  flex: 1 1 200px;
+  /* grow, shrink e bas9s */
+  /* crescem e encolhem juntos e possuem a mesma base */
+}
 
 
 
